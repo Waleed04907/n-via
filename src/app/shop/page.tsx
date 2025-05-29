@@ -44,7 +44,7 @@ export default function ShopPage() {
             <div className="p-4">
               <h2 className="text-xl font-semibold text-green-800">{product.name}</h2>
               <p className="text-green-600 font-bold mt-2">{product.price}</p>
-
+ok
               {/* Buy Now Button */}
               <Link href={`/checkout?product=${encodeURIComponent(product.name)}`}>
                 <button className="mt-4 w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">
